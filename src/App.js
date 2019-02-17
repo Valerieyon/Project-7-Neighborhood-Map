@@ -177,6 +177,9 @@ function loadScript(url) {
   script.async = true
   script.defer = true
   index.parentNode.insertBefore(script, index)
+  script.onerror = "googleMapError()" {
+        alert("Map failed to load correctly. Please try again.")
+        }
 }
 
 export default App;
