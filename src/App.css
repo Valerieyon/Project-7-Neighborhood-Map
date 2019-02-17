@@ -1,0 +1,70 @@
+#map {
+  height: 81vh;
+}
+
+html, body {
+  height: 90%;
+  margin: 0;
+  padding: 0;
+}
+
+#header {
+  text-align: right;
+  padding: 0 10px 0 0;
+  color: #3C3A3A;
+  font-size: 25px;
+}
+
+
+#Venues {
+  text-align: left;
+  margin-top: 25px;
+}
+
+
+#Venues-List {
+  display: block;
+  padding: 0;
+  margin: 0;
+  margin-top: 25px;
+  width: 100%;
+  text-align: left;
+}
+
+
+.listOfVenues {
+  margin-top: 15px;
+  padding: 15px;
+}
+
+
+.listOfVenues li {
+cursor: pointer;
+}
+
+
+#Venues-List button {
+  border: none;
+  padding: 15px 50px;
+  display: inline-block;
+}
+
+
+@media screen and (max-width: 480px) {
+  #Venues-List {
+    width: 100%;
+  }
+
+  #header {
+    font-size: 15px;
+  }
+}
+
+
+@media (max-width: 550px) {
+  #Venues-List button {
+    padding: 5px 0px;
+    margin-left: 0;
+    text-align: left;
+  }
+}
