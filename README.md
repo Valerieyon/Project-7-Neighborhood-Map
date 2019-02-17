@@ -1,4 +1,4 @@
-#Neighborhood Map Project
+# Neighborhood Map Project
 
 ### Introduction
 This project is a single page application of the breweries in where I live, in Maryland.
